@@ -8,7 +8,7 @@
 #ifndef LFS_H
 #define LFS_H
 
-#include "lfs_util.h"
+#include "liblittlefs/lfs_util.h"
 
 #ifdef __cplusplus
 extern "C"
