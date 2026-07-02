@@ -31,6 +31,9 @@ cxx_includes := \
 
 # Defines
 cxx_defs := \
+-DLFS_NO_ERROR \
+-DLFS_NO_DEBUG \
+-DLFS_NO_WARN \
 
 # Additional objects
 # additional_objects := \
