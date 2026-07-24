@@ -35,6 +35,10 @@ cxx_defs := \
 -DLFS_NO_DEBUG \
 -DLFS_NO_WARN \
 
+ifeq ($(BUILD), release)
+cxx_defs += -DLFS_NO_ASSERT
+endif
+
 # Additional objects
 # additional_objects := \
 
